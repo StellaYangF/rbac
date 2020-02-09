@@ -14,8 +14,8 @@ export default (appInfo: EggAppInfo) => {
     client: {
       host: '192.168.12.8',
       port: 3306,
-      user: 'root',
-      password: 'sa',
+      user: 'sd',
+      password: 'sasa',
       database: 'cms',
     },
     app: true,
