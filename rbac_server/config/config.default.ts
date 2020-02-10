@@ -22,6 +22,9 @@ export default (appInfo: EggAppInfo) => {
     agent: false,
   };
 
+  config.security = {
+    csrf: false,
+  };
 
   // add your special config in here
   const bizConfig = {

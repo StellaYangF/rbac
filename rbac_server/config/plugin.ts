@@ -10,6 +10,14 @@ const plugin: EggPlugin = {
     enable: true,
     package: 'egg-mysql',
   },
+  passport: {
+    enable: true,
+    package: 'egg-passport',
+  },
+  passportLocal: {
+    enable: true,
+    package: 'passport-local',
+  },
 };
 
 export default plugin;
